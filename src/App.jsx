@@ -3,12 +3,12 @@ import reactLogo from './assets/react.svg'
 import './App.css'
 
 
-const APP_ID = '1133973920641097';
-console.log('fetch');
-  fetch(`https://www.facebook.com/v15.0/me/accounts?access_token=EAAQHVZBC5cEkBAA5WgSE0ZBOi0TSEmJnzkxipdcTH5aEK8KMxYXEplUCiFuhlMpb97zxwilbgRsn6sWmJUacv2JLhSLkjOUgTn7y6qF9KSiIJlsQQmAcyFf7vBifln5iVFha0AvaGx6y7Qr6WqGlSVUrUolfCPyxzH1iAXeGBpGu8HFZBhMoFALPBQYtmfr5oJZBRxn2EQZDZD`, {mode: 'no-cors'}).then((response)=>{
-    console.log('respuesta');
-    console.log(response);
-  })
+// const APP_ID = '1133973920641097';
+// console.log('fetch');
+//   fetch(`https://www.facebook.com/v15.0/me/accounts?access_token=EAAQHVZBC5cEkBAA5WgSE0ZBOi0TSEmJnzkxipdcTH5aEK8KMxYXEplUCiFuhlMpb97zxwilbgRsn6sWmJUacv2JLhSLkjOUgTn7y6qF9KSiIJlsQQmAcyFf7vBifln5iVFha0AvaGx6y7Qr6WqGlSVUrUolfCPyxzH1iAXeGBpGu8HFZBhMoFALPBQYtmfr5oJZBRxn2EQZDZD`, {mode: 'no-cors'}).then((response)=>{
+//     console.log('respuesta');
+//     console.log(response);
+//   })
 
 function App() {
   const [count, setCount] = useState(0)
